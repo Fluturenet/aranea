@@ -1,0 +1,28 @@
+{
+  "name": "aranea2",
+  "version": "1.0.0",
+  "description": "Bittorrent Crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Honey": "node HoneyPot.js",
+    "debug": "export DEBUG=HoneyPot node"
+  },
+  "keywords": [
+    "bittorrent",
+    "redis",
+    "mongodb",
+    "dht"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bittorrent-protocol": "^2.2.1",
+    "debug": "^2.6.6",
+    "ipaddress": "^0.1.0",
+    "mongodb": "^2.2.26",
+    "redis": "^2.7.1",
+    "ut_metadata": "^3.0.10",
+    "utp-native": "^1.5.0"
+  }
+}
